@@ -9,6 +9,6 @@ public class AI_CarTarget : TargetRules
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "AI_Car" } );
+		ExtraModuleNames.AddRange("AI_Car");
 	}
 }

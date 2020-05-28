@@ -9,6 +9,6 @@ public class AI_CarEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "AI_Car" } );
+		ExtraModuleNames.AddRange("AI_Car");
 	}
 }

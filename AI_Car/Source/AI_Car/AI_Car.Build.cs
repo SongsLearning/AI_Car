@@ -6,8 +6,7 @@ public class AI_Car : ModuleRules
 {
 	public AI_Car(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
+		PrivatePCHHeaderFile = "Public/AI_Car.h";
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Json", "JsonUtilities" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { "Json", "JsonUtilities" });
